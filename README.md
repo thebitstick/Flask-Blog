@@ -7,7 +7,10 @@ Licensed under GNU GPL v3.0.
 
 ## Requirements
  - Python3
- - Everything inside requirements.txt *Install by doing*`pip3 install -r requirements.txt`
+ - Everything inside requirements.txt
+
+## Installing requirements.txt
+`pip3 install -r requirements.txt`
 
 ### Initialize
 
