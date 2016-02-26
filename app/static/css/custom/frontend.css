@@ -1,36 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700&subset=latin,latin-ext);
+
+body {
+  font-family: Lato, sans-serif !important;
+  background-color: #303030;
+  color: #ECEFF1;
+}
+
+html::-webkit-scrollbar {
+  width: 0px;
+}
+
+.page-header {
+  border-radius: 50px;
+  width: 100px;
+  border: none !important;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 1px 10px 100px rgba(33,33,33, 0.3);
+}
+
 #content {
   margin-bottom: 30px;
 }
-#login-icon a {
-  color: #eee;
-}
+
 #post-title {
   margin-bottom: -10px;
 }
-#post-title a {
-  color: #333;
-}
+
 #post-meta {
   margin-bottom: 15px;
 }
-#post-markup {
-}
+
 #post-separator hr {
   width: 23%;
   margin: 60px auto;
 }
+
 #post-pagination {
   margin: 0 auto 60px auto;
 }
+
 .container {
   width: auto;
-  max-width: 640px;
+  max-width: 900px;
   padding: 0 15px;
 }
-.page-header a {
-  color: #333;
-}
+
 img {
   max-width: 100%;
   border-radius: 8px;
+}
+
+.row {
+  box-shadow: 10px 10px 100px 10px rgba(33,33,33, 0.5) !important;
+  background-color: rgba(33,33,33, 0.5);
+  border-radius: 20px;
 }
