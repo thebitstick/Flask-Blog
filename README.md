@@ -2,9 +2,6 @@
 
 A Flask blog *obviously written in Python* that has an admin panel
 
-## License
-Licensed under GNU GPL v3.0.
-
 ## Requirements
  - Python3
  - Everything inside requirements.txt
