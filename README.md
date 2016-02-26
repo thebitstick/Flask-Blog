@@ -14,17 +14,17 @@ Licensed under GNU GPL v3.0.
 The following command will create all tables and fill the database with dummy
 blog posts.
 
-    `$ python manage.py init`
+    $ python manage.py init
 
 Additional commands are
 
-    `dropdb` (Drop all tables in database)
-    `initdb` (Create all tables)
-    `filldb` (Fill database with dummy blog posts)
+    dropdb (Drop all tables in database)
+    initdb (Create all tables)
+    filldb (Fill database with dummy blog posts)
 
 ## Run
 
-    `$ python manage.py runserver`
+    $ python manage.py runserver
 
 Login with **admin** as default username and password. Just add /admin to the
 url or press the login icon at the top of the page.
