@@ -6,9 +6,6 @@
     {% from "macro.html" import render_post %}
     {% for post in pagination.items %}
       {{ render_post(post) }}
-      <div id="post-separator">
-        <hr>
-      </div>
     {% endfor %}
 
     <div id="post-pagination" class="text-center">

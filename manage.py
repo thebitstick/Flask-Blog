@@ -5,8 +5,13 @@ from flask.ext.script import Manager
 from app import app, db
 from app.models import User, Post
 
+import threading
+from flask.ext.cache import Cache
+
 manager = Manager(app)
 
+# Caching
+cache = Cache(app,config={'CACHE_TYPE': 'simple'})
 
 @manager.command
 def init():
@@ -37,7 +42,7 @@ def filldb():
         visible=True,
     )
     db.session.add(post)
-    post.created = datetime(2011, 06, 13)
+    post.created = datetime(2011, 6, 13)
     post.update(post.title, post.markup, True)
     post = Post(
         title=u'Random Words 1',
@@ -179,7 +184,7 @@ def hello():
     return "Hello World!"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(threaded=true)
 ```
 """
 
