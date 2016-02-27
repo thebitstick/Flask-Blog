@@ -37,6 +37,11 @@ Additional commands are
 Login with **admin** as default username and password. Just add /admin to the
 url or press the login icon at the top of the page.
 
+### How to use
+
+Just go to the admin page, click New Post at the top, and type your post **in Markdown**.
+I know it says Markup, this is a bug.
+
 ### Known bugs
 
 A unicode error will appear when initiating the blog database, however, in testing, *everything works fine*.
