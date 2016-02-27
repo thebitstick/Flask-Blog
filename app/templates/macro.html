@@ -25,7 +25,7 @@
   <small>Posted on {{ post.created|date_pretty }}</small>
 </div>
 <div id="post-markup">
-  {{ post.markup|markdown }}
+  {{ post.markdown }}
 </div>
 {% if post.is_updated %}
   <div>
